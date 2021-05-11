@@ -61,10 +61,16 @@ header{
     z-index:3000;
 }
 
+
 .nav-hamburguer:hover{
     box-shadow:inset .4rem .5rem 1rem rgba(0,0,0,.2),
                inset -.4rem 5rem 1rem var(--gray--);
 }
+
+.open .nav-hamburguer{
+    box-shadow:none;
+}
+
 .bars{
     position:relative;
     display: inline-block;
