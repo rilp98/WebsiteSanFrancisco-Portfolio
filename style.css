@@ -339,5 +339,55 @@ header{
     color:var(--gray--);
 }
 
+@media screen and (max-width:1024px){
+    .hero-clipped{
+        width:100%;
+        height:75vh;
+        clip-path:polygon(0 0,100% 0,100% 100%,0 60%);
+    }
+    .title{
+        color:red;
+    }
+    .hero{
+        background-size:100%;
+        height:100vh;
+        width:100vw;
+    }
+}
 
+ @media screen and (max-width:768px){
+
+ 
+    .nav-list{
+        width:30rem;
+    }
+
+    .main-heading{
+        font-size: 4rem;
+    }
+
+    .sub-heading{
+        font-size:1.2rem;
+    }
+
+    .cta-btn{
+        padding:1rem 2.5rem;
+    }
+}
+
+
+@media screen and (max-width:550px){
+
+    .main-heading{
+        font-size: 4rem;
+    }
+
+    .sub-heading{
+        font-size:1.2rem;
+    }
+
+    .cta-btn{
+        margin-top:3rem;
+    }
+}  
 
